@@ -12,7 +12,7 @@ class Token(Thread):
 
         draw = ImageDraw.Draw(image, "RGB")
 
-        font = ImageFont.truetype("Fonts\\TimesNewRoman\\times.ttf", 72)
+        font = ImageFont.truetype("Fonts\\times.ttf", 72)
 
         draw.text(xy = (823, 416), text = f"{self.num:3d}", fill = (0, 0, 0), font = font)
 
